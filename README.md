@@ -4,7 +4,7 @@ A Photography site created for a client that increased the clients exposure for 
 <ul>
  <li>Exposure for more business oppurtunies by 30%s</li>
  <li>Business increased by 50%</li>
- <li><a href= 'https://arabicpasswordgenerator.com/' target="_blank" rel="noopener noreferrer" >John'sPhotography.com</li>
+ <li><a href= 'https://arabicpasswordgenerator.com/' target="_blank" rel="noopener noreferrer" >John'sPhotography.photo</li>
 </ul>
 
 <h2>Sample Screen</h2>
