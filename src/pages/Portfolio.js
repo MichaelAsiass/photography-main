@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 // import images
-import Image1 from '../img/portfolio/1.png';
-import Image2 from '../img/portfolio/2.png';
-import Image3 from '../img/portfolio/3.png';
-import Image4 from '../img/portfolio/4.png';
+import Image1 from '../img/portfolio/1.jpg';
+import Image2 from '../img/portfolio/2.jpg';
+import Image3 from '../img/portfolio/3.jpg';
+import Image4 from '../img/portfolio/4.jpg';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
@@ -37,13 +37,11 @@ const Portfolio = () => {
           >
             <h1 className='h1'>Portfolio</h1>
             <p className='mb-12 max-w-sm'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              <b> Exercitationem, veritatis.</b> Veritatis illum aut,
-              reprehenderit sed dolorem dolore.
+              Here are some landscape photos from my travels around the world, 
+              This is a small selection of my work, please check out my instagram for more!
+              check my other socials as well! at the top of the corner.
               <br />
               <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
             </p>
             <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>
               Hire me

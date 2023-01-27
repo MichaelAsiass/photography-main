@@ -1,7 +1,5 @@
 import React, { useContext } from 'react';
-// import images
-import WomanImg from '../img/contact/woman.png';
-// import motion
+// import motion  
 import { motion } from 'framer-motion';
 // import transition
 import { transition1 } from '../transitions';
@@ -33,34 +31,44 @@ const Contact = () => {
           <div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
-            className='lg:flex-1 lg:pt-32 px-4'
+            className='lg:flex-1 lg:pt-15 px-4'
           >
             <h1 className='h1'>Contact me</h1>
-            <p className='mb-12'>I would love to get suggestions from you.</p>
+            <p className='mb-9'>I would love to work with you.</p>
             {/* form */}
-            <form className='flex flex-col gap-y-4'>
+            <form action='' id='login-form' className='flex flex-col gap-y-3'>
               <div className='flex gap-x-10'>
                 <input
-                  className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
+                  id='name' className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                   type='text'
                   placeholder='Your name'
                 />
                 <input
-                  className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
+                  id='email' className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                   type='text'
                   placeholder='Your email address'
                 />
+                <input
+                  id='phone' className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
+                  type='text'
+                  placeholder='Your phone number'
+                />
               </div>
               <input
-                className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
+                id='message' className='outline-none border-b border-b-primary h-[60px] bg-transparent font-secondary w-full pl-3 placeholder:text-[#757879]'
                 type='text'
                 placeholder='Your message'
               />
-              <button className='btn mb-[30px] mx-auto lg:mx-0 self-start'>
-                Send it
+              <button type='submit' className='btn mb-[40px] mx-auto lg:mx-0 self-start m-[20px]'>
+                Send
               </button>
             </form>
           </div>
+
+
+
+
+
           {/* image */}
           <motion.div
             onMouseEnter={mouseEnterHandler}
@@ -71,7 +79,7 @@ const Contact = () => {
             transition={{ transition: transition1, duration: 1.5 }}
             className='lg:flex-1'
           >
-            <img src={WomanImg} alt='' />
+
           </motion.div>
         </div>
       </div>
@@ -79,4 +87,5 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+
+  export default Contact;

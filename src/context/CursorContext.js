@@ -6,7 +6,7 @@ export const CursorContext = createContext();
 const CursorProvider = ({ children }) => {
   // cursor position state
   const [cursorPos, setCursorPos] = useState({
-    x: 0,
+    x: 0, 
     y: 0,
   });
   // cursor bg state

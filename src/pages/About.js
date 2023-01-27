@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 // import images
-import WomanImg from '../img/about/woman.png';
+import men from '../img/about/men.png';
 // import link
 import { Link } from 'react-router-dom';
 // import motion
@@ -29,7 +29,7 @@ const About = () => {
         <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-16'>
           {/* image */}
           <div className='flex-1 max-h-96 lg:max-h-max order-2 lg:order-none overflow-hidden'>
-            <img src={WomanImg} alt='' />
+            <img src={men} alt='' />
           </div>
           {/* text */}
           <motion.div
@@ -41,13 +41,9 @@ const About = () => {
           >
             <h1 className='h1'>About me</h1>
             <p className='mb-12 max-w-sm'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              <b> Exercitationem, veritatis.</b> Veritatis illum aut,
-              reprehenderit sed dolorem dolore.
-              <br />
-              <br />
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
+              Hi, My Name <b>John,  </b>
+              thanks for cheking out my website, I am a <b>Travel Photgrapher, Wedding Photgrapher and Videographer </b>
+              Please check out my portfolio of my previous work and contact me if you are interested in working with me, I look forward to working with you!
             </p>
             <Link to={'/portfolio'} className='btn'>
               View my work
